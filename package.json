@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "A simple website with a soundcloud player, built using web components (polymer)",
   "private": true,
+  "main": "server/app.js",
   "scripts": {
-    "start": "",
+    "start": "nodemon server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Julien Lengrand-Lambert <julien.lengrand-lambert@ing.nl>",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "express": "^4.15.3"
   }
 }
