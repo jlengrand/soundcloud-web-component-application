@@ -1,0 +1,16 @@
+{
+  "name": "map-web-component-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julien Lengrand-Lambert <julien.lengrand-lambert@ing.nl>",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
