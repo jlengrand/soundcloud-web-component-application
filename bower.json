@@ -1,5 +1,6 @@
 {
-  "name": "map-web-component-example",
+  "name": "soundcloud-web-component-application",
+  "description": "A simple website with a soundcloud player, built using web components (polymer)",
   "dependencies": {
     "polymer": "^2.0.0"
   },
@@ -9,7 +10,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "resolutions": {
-  }
+  ]
 }
