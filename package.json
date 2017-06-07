@@ -3,17 +3,15 @@
   "version": "1.0.0",
   "description": "A simple website with a soundcloud player, built using web components (polymer)",
   "private": true,
-  "main": "server/app.js",
   "scripts": {
-    "start": "nodemon -e .js,.html server/app.js",
+    "start": "browser-sync start --server app -f app --serveStatic bower_components --no-notify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Julien Lengrand-Lambert <julien.lengrand-lambert@ing.nl>",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "browser-sync": "^2.18.12"
   },
   "dependencies": {
-    "express": "^4.15.3"
   }
 }

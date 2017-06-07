@@ -10,5 +10,8 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "webcomponentsjs": "^1.0.1"
+  }
 }
