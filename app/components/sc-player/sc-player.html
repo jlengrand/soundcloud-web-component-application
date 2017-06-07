@@ -15,7 +15,7 @@
             height="450" 
             scrolling="no" 
             frameborder="no" 
-            src="https://w.soundcloud.com/player/?url={{encodedPlaylistUrl}}&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+            src="https://w.soundcloud.com/player/?url={{encodedPlaylistUrl}}&amp;auto_play={{autoPlay}}&amp;hide_related={{hideRelated}}&amp;show_comments={{showComments}}&amp;show_user={{showUser}}&amp;show_reposts={{showReposts}}&amp;visual={{visual}}">
         </iframe>
         
     </template>
@@ -23,6 +23,36 @@
         Polymer({
             is: 'sc-player', 
             properties: {
+                visual: {
+                    type: Boolean, 
+                    value: false,
+                    reflectToAttribute: true
+                },
+                showReposts: {
+                    type: Boolean, 
+                    value: false, 
+                    reflectToAttribute: true
+                },
+                showUser: {
+                    type: Boolean, 
+                    value: false, 
+                    reflectToAttribute: true
+                },
+                showComments: {
+                    type : Boolean, 
+                    value: false, 
+                    reflectToAttribute: true
+                },
+                hideRelated: {
+                    type: Boolean, 
+                    value: false, 
+                    reflectToAttribute: true
+                },
+                autoPlay: {
+                    type: Boolean, 
+                    value: false, 
+                    reflectToAttribute: true
+                },
                 playlistUrl : {
                     type: String, 
                     value: "", 
