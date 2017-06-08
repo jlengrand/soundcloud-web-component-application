@@ -5,10 +5,46 @@
         <style>
             :host {
                 display: block;
+                width: 100%;
+                padding-top: 30px;
+                padding-bottom: 30px;
             }
+
+            #sc-title{
+                width: 60%;
+                box-sizing: border-box;
+                margin: auto;
+            }
+
+            h1{
+                border: 3px solid #333;
+                font-size: 300%;
+                font-weight: 100;
+                display: block;
+                text-align: center;
+                font-family: Roboto,Helvetica,Arial,sans-serif;
+                padding: 1em;
+                text-transform: uppercase;
+                color: #333;
+            }
+
+            h2{
+                letter-spacing: 0.05em;
+                opacity: 0.8;
+                display: block;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: Roboto,Helvetica,Arial,sans-serif;
+                color: #333;
+
+            }
+
         </style>
         
-        <h1>Soundcloud Playlist, featuring Polymer</h1>
+        <div id="sc-title">
+            <h1>Get Rocking!</h1>
+            <h2>A simple embedded soundcloud playlist, done in Polymer</h2>
+        </div>
 
     </template>
     <script>
