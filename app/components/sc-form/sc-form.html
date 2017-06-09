@@ -1,0 +1,45 @@
+<link rel="import" href="/paper-input/paper-input.html">
+<link rel="import" href="/iron-icon/iron-icon.html">
+
+<dom-module id="sc-form">
+    <template>
+        <style>
+            :host {
+                display: block;
+                padding-bottom: 30px;
+            }
+
+            #sc-form{
+                padding-left: 20px;
+            }
+
+            h2{
+                letter-spacing: 0.05em;
+                opacity: 0.8;
+                display: block;
+                text-transform: uppercase;
+                font-family: Roboto,Helvetica,Arial,sans-serif;
+                color: #333;
+            }
+
+            paper-input {
+                max-width: 400px;
+                margin: auto;
+            }
+
+        </style>
+
+        <div id="sc-form">
+            <h2>Edit Form</h2>
+
+            <paper-input always-float-label label="Soundcloud Playlist URL"></paper-input>
+            </paper-input>
+        </div>
+        
+    </template>
+    <script>
+        Polymer({
+            is: 'sc-form'
+        });
+    </script>
+</dom-module>

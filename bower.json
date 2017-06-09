@@ -2,7 +2,9 @@
   "name": "soundcloud-web-component-application",
   "description": "A simple website with a soundcloud player, built using web components (polymer)",
   "dependencies": {
-    "polymer": "^2.0.0"
+    "polymer": "^2.0.0",
+    "paper-input": "^2.0.1",
+    "iron-icon": "^2.0.0"
   },
   "ignore": [
     "**/.*",
